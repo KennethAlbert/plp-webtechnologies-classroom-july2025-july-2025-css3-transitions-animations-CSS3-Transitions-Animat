@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>JS & CSS Dynamics</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <div class="container">
+    <h1>Dynamic Web Page</h1>
+
+    <!-- Part 1: CSS Transitions and Animations -->
+    <div class="card">
+      <h2>Part 1: CSS Transitions & Animations</h2>
+      <p>Hover over the square below to see a smooth transition.</p>
+      <div id="animated-element"></div>
+      
+      <p style="margin-top: 2rem;">This circle is a continuous animation using CSS @keyframes.</p>
+      <div id="continuous-animation"></div>
+    </div>
+
+    <!-- Part 2: JavaScript Functions -->
+    <div class="card">
+      <h2>Part 2: JavaScript Functions</h2>
+      <p>This section demonstrates reusable functions with scope, parameters, and return values. Check the browser console to see the output.</p>
+      <button class="button" id="calc-button">Run Calculation Function</button>
+    </div>
+
+    <!-- Part 3: Combining CSS and JS -->
+    <div class="card">
+      <h2>Part 3: Combining CSS & JS</h2>
+      <p>Click the buttons below to trigger CSS animations dynamically with JavaScript.</p>
+      <div style="display: flex; gap: 1rem; margin-top: 1rem;">
+        <button class="button" id="trigger-animation-btn">Slide In</button>
+        <button class="button" id="reset-animation-btn">Slide Out</button>
+      </div>
+      <div id="dynamic-box"></div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+
+</body>
+</html>
